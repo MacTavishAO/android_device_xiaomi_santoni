@@ -6,12 +6,10 @@
 # Currently we dont have e2fsck compiled. So fs check would failed.
 
 #<src>                                                <mnt_point>  <type>  <mnt_flags and options>                     <fs_mgr_flags>
-/dev/block/bootdevice/by-name/boot         /boot      emmc    defaults                                defaults
-/dev/block/bootdevice/by-name/recovery         /recovery      emmc    defaults                                defaults
 /dev/block/bootdevice/by-name/system         /system      ext4    ro,barrier=1,discard                                wait
-/dev/block/bootdevice/by-name/userdata       /data        ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard      wait,check,encryptable=footer,reservedsize=128MB
-/dev/block/bootdevice/by-name/cust           /cust        ext4    nosuid,nodev,barrier=1                      wait,check
-/dev/block/bootdevice/by-name/cache       /cache        ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard      wait,check
+/dev/block/bootdevice/by-name/userdata       /data        ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard      wait,resize,encryptable=footer
+/dev/block/bootdevice/by-name/cust           /cust        ext4    ro,nosuid,nodev,barrier=1                           wait,check
 /devices/soc/7864900.sdhci/mmc_host*        /storage/sdcard1   vfat    nosuid,nodev         wait,voldmanaged=sdcard1:auto,noemulatedsd,encryptable=footer
 /dev/block/bootdevice/by-name/config         /frp  emmc    defaults                                            defaults
 /devices/soc/78db000.usb/msm_hsusb_host*     /storage/usbotg    vfat    nosuid,nodev         wait,voldmanaged=usbotg:auto
+/dev/block/bootdevice/by-name/misc           /misc              emmc    defaults             defaults

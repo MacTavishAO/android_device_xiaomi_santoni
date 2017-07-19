@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/mido/full_rolex.mk)
+$(call inherit-product, device/xiaomi/mido/full_santoni.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_rolex
+PRODUCT_NAME := lineage_santoni
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

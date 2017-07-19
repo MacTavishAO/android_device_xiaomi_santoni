@@ -1,4 +1,4 @@
-# Device Tree for Xiaomi Redmi 4x (Rolex)
+# Device Tree for Xiaomi Redmi 4x (santoni)
 
 ## Spec Sheet
 
