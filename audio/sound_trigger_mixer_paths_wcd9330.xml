@@ -79,7 +79,7 @@
     <path name="listen-cpe-handset-mic">
         <ctl name="MADONOFF Switch" value="1" />
         <ctl name="MAD Input" value="DMIC1" />
-        <ctl name="CPE AFE MAD Enable" value="1"/>
+	<ctl name="CPE AFE MAD Enable" value="1"/>
     </path>
 
     <path name="listen-ape-handset-mic">

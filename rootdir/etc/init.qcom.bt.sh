@@ -51,6 +51,12 @@ failed ()
   exit $2
 }
 
+program_bdaddr ()
+{
+  /system/bin/btnvtool -O
+  logi "Bluetooth Address programmed successfully"
+}
+
 #
 # enable bluetooth profiles dynamically
 #
@@ -172,7 +178,7 @@ config_bt ()
            setprop ro.bluetooth.hfp.ver 1.7
        fi
        ;;
-    "msmcobalt")
+    "msm8998")
        setprop ro.bluetooth.hfp.ver 1.6
        ;;
     *)
