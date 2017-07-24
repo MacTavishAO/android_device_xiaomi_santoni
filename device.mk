@@ -21,7 +21,7 @@ $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
+service.QDOC.enable=1
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
