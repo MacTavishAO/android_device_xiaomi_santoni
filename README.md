@@ -21,3 +21,8 @@
 ## Device Picture
 
 ![Redmi 4X](http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-4x.jpg "Redmi 4X")
+
+
+
+
+Telegram Group: https://t.me/joinchat/Dwr21A0boDyZ6WlzGGgQpw
