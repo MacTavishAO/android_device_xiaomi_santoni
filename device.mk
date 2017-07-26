@@ -191,6 +191,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
+# DisplayConfigs 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:system/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:system/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN:system/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN	
+	
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \

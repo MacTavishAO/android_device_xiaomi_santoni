@@ -145,7 +145,7 @@ vendor/lib64/libxml.so
 # Camera
 bin/mm-qcamera-app
 bin/mm-qcamera-daemon
-lib/hw/camera.msm8953.so
+lib/hw/camera.msm8937.so
 lib/libmm-qcamera.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
@@ -773,8 +773,8 @@ etc/firmware/cpp_firmware_v1_8_0.fw
 bin/hvdcp_opti
 
 # Consumer Ir
-lib/hw/consumerir.msm8953.so
-lib64/hw/consumerir.msm8953.so
+lib/hw/consumerir.msm8937.so
+lib64/hw/consumerir.msm8937.so
 
 # DPM
 bin/dpmd
@@ -819,8 +819,9 @@ vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
 # Display calibration
--etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml
--etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml
+-etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml
+-etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml
+-etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml
 
 # Fingerprint
 bin/gx_fpd
@@ -835,8 +836,8 @@ lib64/libfpnav.so
 lib64/libfpservice.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.msm8953.so
-vendor/lib64/hw/gatekeeper.msm8953.so
+vendor/lib/hw/gatekeeper.msm8937.so
+vendor/lib64/hw/gatekeeper.msm8937.so
 
 # GPS
 -framework/com.qti.location.sdk.jar
@@ -913,7 +914,7 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/hw/vulkan.msm8953.so
+vendor/lib/hw/vulkan.msm8937.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
@@ -940,7 +941,7 @@ vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/hw/vulkan.msm8953.so
+vendor/lib64/hw/vulkan.msm8937.so
 -vendor/lib64/libsdm-disp-apis.so|7a92054da305786ba58451e265e856b01c3ef18d
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
@@ -987,11 +988,11 @@ etc/firmware/a530v3_seq.fw2
 bin/ipacm-diag
 
 # Keystore
-vendor/lib/hw/keystore.msm8953.so
-vendor/lib64/hw/keystore.msm8953.so
+vendor/lib/hw/keystore.msm8937.so
+vendor/lib64/hw/keystore.msm8937.so
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.msm8953.so
+vendor/lib/hw/sound_trigger.primary.msm8937.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
 
@@ -1180,12 +1181,12 @@ vendor/lib64/libvoice-svc.so
 
 # Sensors
 bin/sensors.qcom
-vendor/lib/hw/activity_recognition.msm8953.so
+vendor/lib/hw/activity_recognition.msm8937.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.msm8953.so
+vendor/lib64/hw/activity_recognition.msm8937.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/sensor_calibrate.so
