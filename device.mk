@@ -154,6 +154,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprintd
 
+# Fingerprint configuration	
+	$(LOCAL_PATH)/camera/lib/hw/fingerprint.default.so/lib/hw/fingerprint.default.so \
+	$(LOCAL_PATH)/camera/lib/hw/fingerprint.msm8937.so/lib/hw/fingerprint.msm8937.so \
+	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.default.so/lib64/hw/fingerprint.default.so \
+	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.fpc.so/lib64/hw/fingerprint.fpc.so \
+	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.goodix.so/lib64/hw/fingerprint.goodix.so \
+	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.msm8937.so/lib64/hw/fingerprint.msm8937.so \
+	$(LOCAL_PATH)/camera/lib64/hw/gxfingerprint.default.so/lib64/hw/gxfingerprint.default.so \
+
+	
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
