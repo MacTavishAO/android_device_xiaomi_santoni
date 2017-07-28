@@ -115,17 +115,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
 	$(LOCAL_PATH)/audio/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
 
-# Camera configuration
-	$(LOCAL_PATH)/camera/lib/libmmcamera_interface.so/lib/libmmcamera_interface.so \
-	$(LOCAL_PATH)/camera/lib/libmmjpeg_interface.so/lib/libmmjpeg_interface.so \
-	$(LOCAL_PATH)/camera/lib/libmm-omxcore.so/lib/libmm-omxcore.so \
-	$(LOCAL_PATH)/camera/lib/libmm-qcamera.so/lib/libmm-qcamera.so \
-	$(LOCAL_PATH)/camera/lib/libmorpho_memory_allocator.so/lib/libmorpho_memory_allocator.so \
-	$(LOCAL_PATH)/camera/lib/hw/camera.msm8937.so/lib/hw/camera.msm8937.so \
-	$(LOCAL_PATH)/camera/lib64/libmm-omxcore.so/lib64/libmm-omxcore.so \
-	$(LOCAL_PATH)/camera/lib64/libmorpho_memory_allocator.so/lib64/libmorpho_memory_allocator.so \
-	$(LOCAL_PATH)/camera/lib64/libmorpho_panorama.so/lib64/libmorpho_panorama.so
-
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937 \
@@ -150,16 +139,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd
-
-# Fingerprint configuration	
-	$(LOCAL_PATH)/camera/lib/hw/fingerprint.default.so/lib/hw/fingerprint.default.so \
-	$(LOCAL_PATH)/camera/lib/hw/fingerprint.msm8937.so/lib/hw/fingerprint.msm8937.so \
-	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.default.so/lib64/hw/fingerprint.default.so \
-	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.fpc.so/lib64/hw/fingerprint.fpc.so \
-	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.goodix.so/lib64/hw/fingerprint.goodix.so \
-	$(LOCAL_PATH)/camera/lib64/hw/fingerprint.msm8937.so/lib64/hw/fingerprint.msm8937.so \
-	$(LOCAL_PATH)/camera/lib64/hw/gxfingerprint.default.so/lib64/hw/gxfingerprint.default.so
-
 	
 # FM
 PRODUCT_PACKAGES += \
