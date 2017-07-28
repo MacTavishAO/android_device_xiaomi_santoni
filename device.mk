@@ -115,12 +115,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
 	$(LOCAL_PATH)/audio/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
 
-# Camera
-PRODUCT_PACKAGES += \
-    camera.msm8937 \
-    libmm-qcamera \
-    Snap
-
 # Camera configuration
 	$(LOCAL_PATH)/camera/cameraserver:system/bin/cameraserver \
 	$(LOCAL_PATH)/camera/mm-qcamera-app:system/bin/mm-qcamera-app \
@@ -134,6 +128,12 @@ PRODUCT_PACKAGES += \
 	$(LOCAL_PATH)/camera/lib64/libmm-omxcore.so/lib64/libmm-omxcore.so \
 	$(LOCAL_PATH)/camera/lib64/libmorpho_memory_allocator.so/lib64/libmorpho_memory_allocator.so \
 	$(LOCAL_PATH)/camera/lib64/libmorpho_panorama.so/lib64/libmorpho_panorama.so
+
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8937 \
+    libmm-qcamera \
+    Snap
 	
 # Display
 PRODUCT_PACKAGES += \
