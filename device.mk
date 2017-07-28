@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/audio/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
 
 # Camera configuration
-	$(LOCAL_PATH)/camera/cameraserver:system/bin/cameraserver \
 	$(LOCAL_PATH)/camera/mm-qcamera-app:system/bin/mm-qcamera-app \
 	$(LOCAL_PATH)/camera/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/camera/lib/libmmcamera_interface.so/lib/libmmcamera_interface.so \
