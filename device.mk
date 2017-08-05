@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8937 \
     libmm-qcamera \
-    Snap
+    Footej
 	
 # Display
 PRODUCT_PACKAGES += \
